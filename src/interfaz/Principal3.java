@@ -58,7 +58,7 @@ public class Principal3 extends javax.swing.JFrame {
         jLabel1.setText("Operaciones con Numeros Complejos");
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 10, -1, -1));
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
         jLabel2.setText("Z1 =");
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 60, -1, -1));
 
@@ -70,7 +70,7 @@ public class Principal3 extends javax.swing.JFrame {
         });
         jPanel1.add(txtNumZ1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 50, 40, 30));
 
-        jLabel3.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
         jLabel3.setText("Z2 =");
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 100, 30, -1));
 
@@ -96,7 +96,7 @@ public class Principal3 extends javax.swing.JFrame {
         });
         jPanel1.add(cmbOperaciones, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 70, 110, 30));
 
-        jLabel4.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
         jLabel4.setText("Resultado: ");
         jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 150, -1, -1));
 
@@ -105,17 +105,17 @@ public class Principal3 extends javax.swing.JFrame {
         jPanel1.add(txtNumZ3, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 140, 40, 30));
 
         cmdCalcular.setBackground(new java.awt.Color(255, 204, 153));
-        cmdCalcular.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        cmdCalcular.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
         cmdCalcular.setText("Calcular");
         cmdCalcular.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 cmdCalcularActionPerformed(evt);
             }
         });
-        jPanel1.add(cmdCalcular, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 210, 80, 30));
+        jPanel1.add(cmdCalcular, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 210, 100, 30));
 
         cmdBorrar.setBackground(new java.awt.Color(255, 204, 153));
-        cmdBorrar.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        cmdBorrar.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
         cmdBorrar.setText("Borrar");
         cmdBorrar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -124,6 +124,7 @@ public class Principal3 extends javax.swing.JFrame {
         });
         jPanel1.add(cmdBorrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 210, 80, 30));
 
+        txtNumi1.setBackground(new java.awt.Color(255, 255, 204));
         txtNumi1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtNumi1ActionPerformed(evt);
@@ -136,6 +137,7 @@ public class Principal3 extends javax.swing.JFrame {
         });
         jPanel1.add(txtNumi1, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 50, 60, 30));
 
+        txtNumi2.setBackground(new java.awt.Color(255, 255, 204));
         txtNumi2.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
                 txtNumi2KeyTyped(evt);
@@ -143,11 +145,12 @@ public class Principal3 extends javax.swing.JFrame {
         });
         jPanel1.add(txtNumi2, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 90, 60, 30));
 
-        jLabel5.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
         jLabel5.setText("Z3 =");
         jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 150, -1, -1));
 
         txtNumi3.setEditable(false);
+        txtNumi3.setBackground(new java.awt.Color(255, 255, 204));
         jPanel1.add(txtNumi3, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 140, 80, 30));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
